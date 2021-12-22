@@ -1,71 +1,99 @@
-header{
-    width: 100%;
-    height: 200px;
-    display: flex;
-    margin: 0;
+body {background-color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-
-.caixa1{
-    display: flex;
-    width: 50%;
-    height: 200px;
-    position: relative;
-    background-color: chocolate;
-}
-
-
-.caixa2{
-    display: flex;
-    width: 50%;
-    height: 200px;
-    position: relative;
-    background-color: darkcyan;
-
-}
-
 
 h1{
-    font-size: 35px;
-    position: absolute;
-    top: 80px;
-    left: 220px;
+width: 100%;
+height: 135px;
+display: flex;
+flex-direction: row;
+font-size: 40px;
+justify-content: center;
+margin-top: 50px;
 }
-
-
 
 nav{
-    position: absolute;
-    top: 80px;
-    left: 170px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    justify-content: center;}
 
+nav li{
+    margin: 30px 30px 200px;    
 }
 
 
-.caixa2 li {
-    margin-left: 20px;
-    display: inline;
-    font-size: 32px;
-    font-weight: bold;
-    text-decoration: none;
-}
 
 
-h1:hover{
-    font-size: 55px;
-    color: blanchedalmond;
+.animalPicture{
+    width: 300px;
+    height: 300px;
+    border: solid;
 }
 
-.caixa2 li:hover{
-    font-size: 55px;
-    color: blanchedalmond;
-    text-decoration: none
-}
-.caixa2 a:visited{
-    text-decoration: none;
-    color: black;
+.catsBox{
+    width: 100%;
+    height: 500px;
 }
 
-.caixa2 a:link{
-    text-decoration: none;
+.dogsname1{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.dogs1{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.dogsname2{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.dogs2{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.catsname{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.catsimg{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
 }
