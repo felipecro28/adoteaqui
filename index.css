@@ -4,40 +4,84 @@ body {background-color: yellow;
 
 h1{
 width: 100%;
-height: 135px;
+height: 125px;
 display: flex;
 flex-direction: row;
 font-size: 40px;
 justify-content: center;
-margin-top: 50px;
+margin-top: 95px;
+}
+
+h1:hover{
+    font-size: 75px;
+    color: whitesmoke;
+    transition: 1s;
 }
 
 nav{
-    width: 100%;
-    height: 100px;
+    width: 50%;
+    height: 300px;
     display: flex;
+    margin-left: 390px;
+    padding: 20px;
     justify-content: center;
-    align-content: space-between;
 }
 nav ul{
+    margin: 30px 30px 30px 30px;
     display: flex;
     flex-direction: row;
+    align-content: space-between;
     font-size: 25px;
-    justify-content: center;}
-
-nav li{
-    margin: 30px 30px 200px;    
+    
 }
 
+nav li{
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    margin: 0px 140px;
+}
 
+nav a{
+    color: black
+}
 
+nav a:hover{
+    transition: 1s;
+    font-size:50px;
+    color: whitesmoke;
+}
+
+nav li:hover{
+    transition: 1s;
+    font-size:50px;
+    color: whitesmoke;
+}
+
+nav a:link{
+    text-decoration: none;
+    color: black;
+}
+
+nav li:visited{
+    text-decoration: none;
+    color: black;
+}
 
 .animalPicture{
     width: 300px;
     height: 300px;
-    border: solid;
+    border: solid white 9px;
+    border-radius: 15px;
+
 }
 
+.animalPicture:hover{
+    transition: 1s;
+    width: 400px;
+    height: 400px;
+
+}
 .catsBox{
     width: 100%;
     height: 500px;
@@ -49,11 +93,13 @@ nav li{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .dogs1{
     width: 100%;
-    height: 350px;
+    height: 500px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -65,11 +111,13 @@ nav li{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .dogs2{
     width: 100%;
-    height: 350px;
+    height: 500px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -81,6 +129,8 @@ nav li{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .catsimg{
