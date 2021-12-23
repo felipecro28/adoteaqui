@@ -1,149 +1,148 @@
 body {background-color: yellow;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.cabecalho{
+    width: 100%;
+    height: 250px;
+    background-color: white;
+    position: relative;
 }
 
 h1{
-width: 100%;
-height: 125px;
-display: flex;
-flex-direction: row;
-font-size: 40px;
-justify-content: center;
-margin-top: 95px;
+    margin: 0;
+    position: absolute;
+    top: 120px;
+    left: 200px;
+
 }
 
-h1:hover{
-    font-size: 75px;
-    color: whitesmoke;
-    transition: 1s;
+#logo{
+    width: 160px;
+    height: 120px;
+    position: absolute;
+    top: 60px;
+    left: 60px;
 }
 
-nav{
-    width: 50%;
-    height: 300px;
-    display: flex;
-    margin-left: 390px;
-    padding: 20px;
-    justify-content: center;
-}
 nav ul{
-    margin: 30px 30px 30px 30px;
+    margin: 0;
     display: flex;
     flex-direction: row;
-    align-content: space-between;
-    font-size: 25px;
-    
+    position: absolute;
+    top: 110px;
+    left: 900px;
+    font-size: 32px;
 }
 
 nav li{
-    text-transform: uppercase;
-    display: flex;
-    flex-direction: row;
-    margin: 0px 140px;
+    margin-right: 140px;
 }
 
-nav a{
-    color: black
+h1:hover{
+    font-size: 60px;
+    transition: 1.5s;
 }
 
-nav a:hover{
-    transition: 1s;
-    font-size:50px;
-    color: whitesmoke;
-}
 
 nav li:hover{
-    transition: 1s;
-    font-size:50px;
-    color: whitesmoke;
+    font-size: 60px;
+    transition: 1.5s;
+    text-decoration: underline;
 }
-
 nav a:link{
     text-decoration: none;
-    color: black;
 }
-
-nav li:visited{
-    text-decoration: none;
+nav a:visited{
     color: black;
 }
 
 .animalPicture{
     width: 300px;
     height: 300px;
-    border: solid white 9px;
-    border-radius: 15px;
-
+    border: solid white 12px;
+    border-radius: 40px;
 }
+
 
 .animalPicture:hover{
-    transition: 1s;
-    width: 400px;
-    height: 400px;
-
-}
-.catsBox{
-    width: 100%;
+    width: 500px;
     height: 500px;
+    transition: 1.5s;
 }
 
-.dogsname1{
-    width: 100%;
-    height: 45px;
+.tituloAnimal{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 90px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    color:black
+}
+
+.tituloAnimal:hover{
+    font-size: 80px;
+    color: white;
+    transition: 1.5s;
+}
+.dogsname1{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+.animalName{
+    margin-right: 250px;
+    margin-left: 220px;
+    font-size: 32px;
+}
+
+.animalName:hover{
+    font-size: 60px;
+    color: white;
+    transition: 1.5s;
 }
 
 .dogs1{
-    width: 100%;
-    height: 500px;
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
+    margin-right: 20px;
+
 }
 
 .dogsname2{
-    width: 100%;
-    height: 45px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+    justify-content: space-evenly;
+    font-size: 20px;
+    margin-top: 90px;}
 
 .dogs2{
-    width: 100%;
-    height: 500px;
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
+    margin-right: 20px;
 }
 
 .catsname{
-    width: 100%;
-    height: 45px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+    justify-content: space-evenly;
+    font-size: 20px;
+    margin-top: 40px;}
 
 .catsimg{
-    width: 100%;
-    height: 350px;
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
+    margin-right: 20px;
+    margin-bottom: 60px;
 }
 
 footer{
-    width: 100%;
-    height: 50px;
     display: flex;
     justify-content: center;
+    background-color: white;
 }
+
